@@ -1,1 +1,84 @@
+body{
+background: #f3f5fc;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 80%;
+  }
+
+.bot-A{
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 25%;
+    background-color: #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+.bot-B{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 25%;
+    background-color: #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    margin-left: 20%;
+}
+.textarea{
+    position: absolute;
+    width: 42%;
+    height: 60%;
+    left: 12%;
+    top: 15%;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #f3f5fc;
+}
+
+p {
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 80%;
+        left: 12%;
+        top: 80%;
+    
+
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
 
